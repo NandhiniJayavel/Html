@@ -16,6 +16,9 @@ fieldset
     border: 2px dashed black;
     border-radius: 20px ;
 }
+fieldset:hover{
+    box-shadow:10px 10px 100px rgb(98, 43, 83);
+}
 input:required{
     border: 2px solid red;
 }
