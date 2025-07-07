@@ -1,0 +1,83 @@
+*{
+     @import url('https://fonts.cdnfonts.com/css/google-sans');
+    font-family: 'Product Sans', sans-serif;
+}
+
+body{
+   
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(194, 180, 217, 1) 85%, rgba(148, 187, 233, 1) 100%);
+}
+form{
+    width: 500px;
+}
+fieldset
+{
+    border: 2px dashed black;
+    border-radius: 20px ;
+}
+input:required{
+    border: 2px solid red;
+}
+input:optional{
+    border: 2px dashed green;
+}
+input[type="reset"]
+{
+    background-color: white;
+}
+input[type="radio"]:checked
+{
+  height: 20px;
+  width: 20px;
+}
+input[type="radio"]:checked+label{
+   color: rgb(198, 93, 170);
+}
+input[type="submit"]
+{
+    border: 3px solid violet;
+}
+select{
+    background-color: #EEAECA;
+    cursor: pointer;
+}
+input[type="radio"]
+{
+    cursor: pointer;
+}
+input:focus{
+    background-color: #EEAECA ;
+}
+input[type="text"]+span{
+    display: none;
+}
+input[type="text"]:hover+span{
+    display: inline;
+}
+input[type="email"]+span{
+    display: none;
+}
+input[type="email"]:hover+span{
+    display: inline;
+}
+input[type="tel"]+span{
+    display: none;
+}
+input[type="tel"]:hover+span{
+    display: inline;
+}
+input[type="password"]+span{
+    display: none;
+}
+input[type="password"]:hover+span{
+    display: inline;
+}
+
+
+img{
+    display: none;
+}
+input[type="email"]:focus:valid~img#valid{
+       display: inline;
+}
